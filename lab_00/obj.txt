@@ -1,0 +1,31 @@
+1. User
+    -name
+    -surname
+    -email
+    -DOB
+    -address
+    -password
+    -AuthToken (TRUE == Order)
+
+2. PokeBowl
+    -size
+    -base
+    -[{Ingredients}]
+    -price(computed)
+
+3.Order
+    -[{ PokeBowl,count}]
+    -address
+    -timestamp
+    -totalAmount
+    -message NULL ?? true
+
+4.Availability
+    -[3x{size,count}]
+    -date every 24h for working days the availbaility resets
+    
+5.Order Log
+    -[{Order}]
+
+6.Ingredients
+    -[...ingredients]

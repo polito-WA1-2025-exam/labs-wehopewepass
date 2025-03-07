@@ -1,0 +1,21 @@
+{
+  "name": "labs-wehopewepass",
+  "version": "1.0.0",
+  "description": "Web-App1-Labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polito-WA1-2025-exam/labs-wehopewepass/blob/main/README.md"
+  },
+  "keywords": [
+    "Poke"
+  ],
+  "author": "JonKurmaku , zein-ismail",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}

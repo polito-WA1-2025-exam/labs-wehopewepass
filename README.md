@@ -8,5 +8,8 @@
 # Exercise "Poke"
 
 # Lab Journal
--Lab 00 -- "Poke" exercise choosen, 
-(you may update this file to keep track of the progress of your group work, throughout the weeks)
+-Lab 00 -- 
+    "Poke" exercise choosen  
+    obj.txt (object specification)
+    obj constructors first increment
+
