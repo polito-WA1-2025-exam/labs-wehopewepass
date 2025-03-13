@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 
 function Order(pokebowls,timestamp,message){
-
+//Add a user id
     this.pokebowls=pokebowls
     this.timestamp = timestamp
     this.message = message ? message : "No specifications"
