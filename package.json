@@ -16,6 +16,8 @@
   "author": "JonKurmaku , zein-ismail",
   "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
