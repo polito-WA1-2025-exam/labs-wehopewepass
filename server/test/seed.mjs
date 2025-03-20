@@ -1,11 +1,11 @@
 import dayjs from 'dayjs';
-import { connectDB } from './dbConfig.mjs';
-import { createUsersTable } from './migrations/user.mjs';
-import { createIngredientsTable } from './migrations/ingredients.mjs';
-import { createPokeBowlsTable } from './migrations/pokebowls.mjs';
-import { createOrdersTable } from './migrations/orders.mjs';
-import { createAvailabilityTable } from './migrations/availability.mjs';
-import { createOrderLogTable } from './migrations/orderlog.mjs';
+import { connectDB } from '../dbConfig.mjs';
+import { createUsersTable } from '../migrations/user.mjs';
+import { createIngredientsTable } from '../migrations/ingredients.mjs';
+import { createPokeBowlsTable } from '../migrations/pokebowls.mjs';
+import { createOrdersTable } from '../migrations/orders.mjs';
+import { createAvailabilityTable } from '../migrations/availability.mjs';
+import { createOrderLogTable } from '../migrations/orderlog.mjs';
 
 (async () => {
     const db = await connectDB();

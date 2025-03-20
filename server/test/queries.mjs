@@ -1,19 +1,4 @@
-import {connectDB} from "../dbConfig.mjs"
-
-const fetchAllData = async (tableName)=>{
-    const db=await connectDB()
-    try{
-        const items = await db.all(`SELECT * FROM ${tableName}`);
-        return items;
-    }
-    catch(err){
-        console.log("Error Fetching Data::",err);
-        
-    }
-    finally{
-        await db.close()
-    }
-}
+import connectDB from "../dbConfig.mjs"
 
 
 const bowlsGT7 = async()=>{
@@ -47,7 +32,7 @@ const bowsWithRice = async()=>{
     }
 }
 
-bowsWithRice().then((data)=>{
+fetchAllData("orders").then((data)=>{
     console.log(data);
     
 })

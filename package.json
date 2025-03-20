@@ -4,6 +4,7 @@
   "description": "Web-App1-Labs",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./server/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +17,12 @@
   "author": "JonKurmaku , zein-ismail",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "nodemon": "^3.1.9",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   }
