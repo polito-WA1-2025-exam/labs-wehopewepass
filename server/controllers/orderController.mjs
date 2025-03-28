@@ -8,10 +8,9 @@ export const fetchOrders = async (req,res)=>{
     
     
     try{
-        const items = await db.all(`SELECT * FROM orders`).then((data)=>
-            {console.log(data)})
+        const items = await db.all(`SELECT * FROM orders`)
 
-        res.status(200).json(items)
+        res.status(200).send(items)
 
     }
     catch(err){

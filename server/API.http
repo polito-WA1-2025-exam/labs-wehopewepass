@@ -8,3 +8,4 @@ GET http://localhost:3000/order/fetchOrder HTTP/1.1
 
 POST http://localhost:3000/order/createOrder HTTP/1.1
 
+GET http://localhost:3000/bowls/fetchAll HTTP/1.1
